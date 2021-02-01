@@ -12,11 +12,9 @@ class TravelAgency
     # puts "\nThis is what country_data_as_json looks like:\n\n"
     puts country_data_as_json
 
-    # Todos
-    # ---
-    # [ ] Create a Country object see `country.rb`
-    # [ ] Display the country data using the dedicated method
-    #     from the `Country` class
+    # Todo:
+    # Investigate the output from `country_data_as_json`
+    # Parse the content and display the data you want (see the Examples in the README description).
   end
 end
 
