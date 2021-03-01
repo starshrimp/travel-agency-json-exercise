@@ -36,7 +36,7 @@ How it works:
   (To quit travelling, enter "exit")
 
 
-Enter country code: SWE                         # "SWE" is the user's input
+Enter country code: SWE                         # "SWE" was the user's input
 
 Name .........................: Sweden          # To be implemented
 Demonym ......................: Swedish         # To be implemented
@@ -60,19 +60,16 @@ Note that this is just an example. The parts `To be implemented` can be implemen
 | Filename | Do you need to change it? | Purpose |
 |:-|:-|:-|
 | `countries_api.rb` | No | This file is responsible to fetch data about a country from the web. |
-| `country.rb` | Yes | In this file we want to manage the data that we receive from the web. |
 | `travel_agency.rb` | Yes | Here we handle the user's input and make sure that a country's information is displayed |
 | `travel_agency_helper.rb` | No | This file is supposed to hide all "unimportant" logic that you don't need to worry about for this exercise. |
 
 ## How to start
 
-Don't worry, most of the application is already prepared for you.
+Don't panic, most of the application is already prepared for you.
 
 As a matter of fact, **you only have to implement step 4** (see "Workflow" above).
 
-And as you can see in the "Files overview" above, there are only 2 files where you're supposed to add or change code.
-
-The files `travel_agency.rb` and `country.rb` also contain comments what you need to do.
+And as you can see in the "Files overview" above, there's only 1 file where you're supposed to change code.
 
 As a first step, [download this code](https://github.com/rubymonstas-zurich/travel-agency-json-exercise/archive/main.zip) and simply try what happens if you run:
 
