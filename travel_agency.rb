@@ -1,5 +1,4 @@
 require_relative './travel_agency_helper'
-require_relative './country'
 
 class TravelAgency
   include TravelAgencyHelper
