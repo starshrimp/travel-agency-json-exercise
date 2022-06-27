@@ -1,7 +1,7 @@
 require 'open-uri'
 
 class CountriesApi
-  RESTCOUNTRY_ENDPOINT_URL = 'https://restcountries.eu/rest/v2/alpha'.freeze
+  RESTCOUNTRY_ENDPOINT_URL = 'https://restcountries.com/v3.1/alpha'.freeze
 
   def fetch_country_data(country_code)
     call_api(country_code).tap { puts "" }
